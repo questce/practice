@@ -1,4 +1,13 @@
-<?xml version="1.0">
+<?xml version="1.0"?>
 <root>
-
+  <item>
+      <name>absolute ctrl+j to esc</name>
+      <identifier>remap.absolute_ctrl_j_to_esc</identifier>
+      <autogen>--KeyToKey-- KeyCode::J, ModifierFlag::CONTROL_L, KeyCode::ESCAPE</autogen>
+  </item>
+  <item>
+      <name>absolute ctrl+g to esc</name>
+      <identifier>remap.absolute_ctrl_g_to_esc</identifier>
+      <autogen>--KeyToKey-- KeyCode::G, ModifierFlag::CONTROL_L, KeyCode::ESCAPE</autogen>
+  </item>
 </root>
