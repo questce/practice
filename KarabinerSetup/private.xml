@@ -10,4 +10,10 @@
       <identifier>remap.absolute_ctrl_g_to_esc</identifier>
       <autogen>--KeyToKey-- KeyCode::G, ModifierFlag::CONTROL_L, KeyCode::ESCAPE</autogen>
   </item>
+  <item>
+    <name>absolute ctrl+_ to $</name>
+    <identifier>remap.absolute_ctrl_underscore_to_dollar</identifier>
+    <autogen>__KeyToKey__ KeyCode::JIS_UNDERSCORE, ModifierFlag::SHIFT_L, KeyCode::KEY_4, ModifierFlag::SHIFT_L,</autogen>
+    <autogen>__KeyToKey__ KeyCode::JIS_UNDERSCORE, ModifierFlag::SHIFT_R, KeyCode::KEY_4, ModifierFlag::SHIFT_R,</autogen>
+  </item>
 </root>
